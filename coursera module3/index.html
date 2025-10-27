@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="top">
+        <h1><a href="index.html">Resto Adam</a></h1>
+        <span class="burger" onclick="toggleMenu()">☰</span>
+
+        <!-- NAV -->
+        <nav id="nav">
+            <ul>
+                <a href="#"><li id="Chicken">Chicken</li></a>
+                <a href="#"><li id="Sushi">Sushi</li></a>
+                <a href="#" id="Beef"><li >Beef</li></a>
+            </ul>
+        </nav>
+    </header>
+     <h2>Our menu</h2>
+    <div class="container">
+        <div class="plats">
+        <section>
+            <h3><a href="#chicken">Chicken</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum assumenda voluptate nobis qui quam cumque quod velit repellendus, hic unde pariatur numquam sint saepe error atque. Explicabo, facere obcaecati.
+            Quaerat cumque fugit quia eum architecto iusto voluptatum quo excepturi aspernatur dolorem amet illum, blanditiis inventore asperiores quis totam perspiciatis facere voluptas ea delectus odio fuga adipisci laborum? Saepe, laudantium!
+            Possimus soluta est nobis saepe consectetur. Eos, natus officiis eaque unde animi minus nemo fugiat voluptatum autem ipsum. Vel totam dolore expedita adipisci commodi optio ipsum ratione minus maiores cum.
+            </p>
+        </section>
+        <section>
+            <h3><a href="#sushi">Sushi</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum assumenda voluptate nobis qui quam cumque quod velit repellendus, hic unde pariatur numquam sint saepe error atque. Explicabo, facere obcaecati.
+            Quaerat cumque fugit quia eum architecto iusto voluptatum quo excepturi aspernatur dolorem amet illum, blanditiis inventore asperiores quis totam perspiciatis facere voluptas ea delectus odio fuga adipisci laborum? Saepe, laudantium!
+            Possimus soluta est nobis saepe consectetur. Eos, natus officiis eaque unde animi minus nemo fugiat voluptatum autem ipsum. Vel totam dolore expedita adipisci commodi optio ipsum ratione minus maiores cum.
+            </p>
+        </section>
+        <section>
+            <h3><a href="#beef">Beef</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum assumenda voluptate nobis qui quam cumque quod velit repellendus, hic unde pariatur numquam sint saepe error atque. Explicabo, facere obcaecati.
+            Quaerat cumque fugit quia eum architecto iusto voluptatum quo excepturi aspernatur dolorem amet illum, blanditiis inventore asperiores quis totam perspiciatis facere voluptas ea delectus odio fuga adipisci laborum? Saepe, laudantium!
+            Possimus soluta est nobis saepe consectetur. Eos, natus officiis eaque unde animi minus nemo fugiat voluptatum autem ipsum. Vel totam dolore expedita adipisci commodi optio ipsum ratione minus maiores cum.
+            <span class="top"><a href="#top">Back to top</a></span>
+             </p>
+        </section>
+        </div>
+    </div>
+   <script>
+function toggleMenu() {
+    document.getElementById("nav").classList.toggle("open");
+}
+</script> 
+</body>
+</html>
